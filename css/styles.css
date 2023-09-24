@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
+
+:root {
+    --bg-primary: #23c686;
+    --text-primary: #4b210f;
+    --bg-secondary: #234c23;
+
+    --text-links: #fff;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: var(--bg-primary);
+    color: var(--text-primary);
+}
+
+
+/* Bocna navigacia */
+
+.bocna-navigacia {
+    position: fixed;
+    height: 100%;
+    background-color: var(--bg-secondary);
+    overflow-y: auto;
+    transition: right 0.3s ease;
+    padding: 1rem;
+}
+
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-item {
+
+    margin: 0.7rem 0;
+
+}
+
+.fa-close {
+    color: var(--text-links);
+    font-size: 1.5rem;
+}
+
+a {
+    color: var(--text-links);
+}
