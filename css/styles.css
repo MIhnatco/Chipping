@@ -51,3 +51,25 @@ body {
 a {
     color: var(--text-links);
 }
+
+/* Navigacia */
+header nav {
+    display: flex;
+    height: 2rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem;
+}
+
+#kruh {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: var(--bg-secondary);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
