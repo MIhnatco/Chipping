@@ -74,3 +74,26 @@ header nav {
     justify-content: center;
     align-items: center;
 }
+
+
+/* Hero sekcia */
+
+#main {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    padding: 0.8rem;
+}
+
+
+nav h1, 
+#main h1{
+    font-size: 1.4rem;
+}
+#main h2, 
+#footer h2 {
+    font-size: 1.1rem;
+}
