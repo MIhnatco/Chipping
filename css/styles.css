@@ -90,10 +90,25 @@ header nav {
 
 
 nav h1, 
+footer h1,
 #main h1{
     font-size: 1.4rem;
 }
-#main h2, 
-#footer h2 {
+#main h2 {
     font-size: 1.1rem;
+}
+
+
+
+/* footer */
+footer, 
+.kontakt {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.kontakt p {
+    margin: 0.5rem;
+    font-weight: bold;
 }
