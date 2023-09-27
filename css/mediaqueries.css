@@ -1,0 +1,22 @@
+@media (min-width: 568px){
+    #kruh {
+        display: none;
+    }
+
+    #desktop-nav {
+        display: flex;
+    }
+
+    .nav-item {
+        margin: 2rem 1rem;
+    }
+
+    .nav-item a {
+        color: inherit;
+    }
+
+    .nav-item a:hover {
+        font-weight:700;
+        border-bottom: 1px solid var(--bg-secondary);
+    }
+}

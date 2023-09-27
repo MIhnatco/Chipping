@@ -11,61 +11,70 @@
 
     <!-- Stylesheets -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/mediaqueries.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
 </head>
 <body id='index'>
 
-    <!-- This div element with id "bocnaNavigacia" represents a sidebar navigation menu. -->
-    <div id="bocnaNavigacia" class="bocna-navigacia" style="right:-250px;">
+        <!-- This div element with id "bocnaNavigacia" represents a sidebar navigation menu. -->
+        <div id="bocnaNavigacia" class="bocna-navigacia" style="right:-250px;">
 
-        <!-- Unordered list containing navigation links. -->
-        <ul class="nav-links">
-            <!-- Close button icon for the navigation menu. -->
-            <li class="nav-item"> <i class="fa fa-close"></i></li>
+            <!-- Unordered list containing navigation links. -->
+            <ul class="nav-links">
+                <!-- Close button icon for the navigation menu. -->
+                <li class="nav-item"> <i class="fa fa-close"></i></li>
 
-             <!-- Navigation items with a link to "sluzby.html". -->
-            <li class="nav-item"> <a class="nav-link" href="sluzby.html">Naše služby</a></li>
-            <li class="nav-item"> <a class="nav-link" href="sluzby.html">Galéria</a></li>
-            <li class="nav-item"> <a class="nav-link" href="sluzby.html">Kontakt</a></li>
-        </ul>
-    </div> 
+                <!-- Navigation items with a link to "sluzby.html". -->
+                <li class="nav-item"> <a class="nav-link" href="sluzby.html">Naše služby</a></li>
+                <li class="nav-item"> <a class="nav-link" href="sluzby.html">Galéria</a></li>
+                <li class="nav-item"> <a class="nav-link" href="sluzby.html">Kontakt</a></li>
+            </ul>
+        </div>  
+
 
     <div class="container">
+
         <header>
             <nav>
                 <h1 class="logo">Ing. Peter Belej</h1>
 
+                <!-- Mobile navigation content -->
                 <div id="kruh">
                     <i class="fa fa-bars"></i>
                 </div>
+
+                <!-- Desktop navigation content -->
+                <ul class="nav-links" id="desktop-nav" >
+                    <li class="nav-item"><a class="nav-link" href="sluzby.html">Naše služby</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sluzby.html">Galéria</a></li>
+                </ul>
+                
             </nav>
         </header> <!-- /header-->
 
-    </div><!-- /container-->
+        <main id="main">
+            <h1>Ekologická likvidácia drevín.</h1>
 
-    <main id="main">
-        <h1>Ekologická likvidácia drevín.</h1>
+            <figure>
+                <img src="images/logo5cm.png" alt="a tree">
+            </figure>
 
-        <figure>
-            <img src="images/logo5cm.png" alt="a tree">
-        </figure>
+            <h2>Získajte profesionálne sluzby kosanie a štiepkovania pre 
+                dobre udržiavané okolie.
+            </h2>
 
-        <h2>Získajte profesionálne sluzby kosanie a štiepkovania pre 
-            dobre udržiavané okolie.
-        </h2>
+        </main> <!-- /main-->
 
-    </main> <!-- /main-->
+        <footer>
+            <h1>Kontaktujte nás.</h1>
 
-    <footer>
-        <h1>Kontaktujte nás.</h1>
+            <div class="kontakt">
+                <p><i class="fa fa-envelope"></i> peter.belej1@gmail.com</p>
+                <p><i class="fa fa-mobile-alt"></i> 0907 440 399</p>
+            </div>
+        </footer>
 
-        <div class="kontakt">
-            <p><i class="fa fa-envelope"></i> peter.belej1@gmail.com</p>
-            <p><i class="fa fa-mobile-alt"></i> 0907 440 399</p>
-        </div>
-    </footer>
-
-
+    </div><!-- /container-->    
     <script src="js/index.js"></script>
     
 </body>
