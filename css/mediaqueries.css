@@ -20,3 +20,63 @@
         border-bottom: 1px solid var(--bg-secondary);
     }
 }
+
+@media (min-width: 768px){
+
+       
+    h1 {
+        font-size: 2rem;
+        margin: 2rem;
+    }
+
+    h2 {
+        font-size: 1.8rem;
+        margin: 2rem;
+    }
+
+
+    #services .sluzba {
+        max-width: 50%;
+    }
+
+    #services .sluzba img {
+        max-width: 80%;
+    }
+
+    #services .obrazky,
+    #services .sluzby {
+        flex-direction: row;
+        flex-flow: wrap;
+    }
+
+    #services .obrazky img {
+        display: block;
+        flex: 0 0 45%;
+        max-width: 45%;
+    }
+}
+
+
+@media (min-width: 1000px){
+    .container {
+        max-width: 1100px;
+        margin: auto;
+    }
+
+    #services .sluzby,
+    #services .obrazky {
+        flex-direction: row;
+        height: 80vh;
+        flex-wrap: wrap;
+     
+    }
+    
+    #services .obrazky img,
+    #services .sluzby .sluzba {
+        flex: 0 0 31%;
+        max-width: 31%;
+     
+    }
+
+
+}

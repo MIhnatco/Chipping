@@ -53,6 +53,17 @@ a {
     text-decoration: none;
 }
 
+h1 {
+    font-size: 1.8rem;
+}
+
+
+h2 {
+    font-size: 1.2rem;
+    line-height: 150%;
+    text-align: center;
+}
+
 /* Navigacia */
 header nav {
     display: flex;
@@ -93,17 +104,6 @@ header nav {
 }
 
 
-nav h1, 
-footer h1,
-#main h1{
-    font-size: 1.4rem;
-}
-#main h2 {
-    font-size: 1.1rem;
-}
-
-
-
 /* footer */
 footer, 
 .kontakt {
@@ -116,3 +116,38 @@ footer,
     margin: 0.5rem;
     font-weight: bold;
 }
+
+
+/* Sluzby */
+#services .naseSluzby h2 {
+    margin: 2rem 0;
+}
+
+#services .sluzby {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+
+}
+
+#services .sluzba {
+    max-width: 90%;
+    margin: 0  auto 1.5rem auto;
+}
+#services .sluzby img {
+    width:65%;
+    display: block;
+   margin: 0 auto;
+   border-radius: 8px;
+}
+
+#services figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 0.7rem;
+  
+}
+
+
+
+
