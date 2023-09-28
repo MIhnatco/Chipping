@@ -118,12 +118,13 @@ footer,
 }
 
 
-/* Sluzby */
+/* Sluzby a Galeria*/ 
 #services .naseSluzby h2 {
     margin: 2rem 0;
 }
 
-#services .sluzby {
+#services .sluzby,
+#services .obrazk {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -134,12 +135,29 @@ footer,
     max-width: 90%;
     margin: 0  auto 1.5rem auto;
 }
-#services .sluzby img {
-    width:65%;
-    display: block;
-   margin: 0 auto;
-   border-radius: 8px;
+
+#services .sluzba img, 
+#services .obrazky img {
+    border-radius: 10px;
+    border: 2px solid var(--bg-secondary);
+
 }
+
+#services .sluzby img,
+#services .obrazky img {
+    width:75%;
+    display: block;
+    margin: 0 auto;
+    border-radius: 8px;
+}
+
+#services .obrazky img {
+    width: 65%;
+    margin-bottom: 1rem;
+}
+
+
+
 
 #services figcaption {
     text-align: center;
@@ -147,6 +165,9 @@ footer,
     margin-bottom: 0.7rem;
   
 }
+
+
+
 
 
 
