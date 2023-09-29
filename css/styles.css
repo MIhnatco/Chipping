@@ -150,19 +150,14 @@ footer,
     margin: 0  auto 1.5rem auto;
 }
 
-#services .sluzba img, 
-#services .obrazky img {
-    border-radius: 10px;
-    border: 2px solid var(--bg-secondary);
-
-}
-
 #services .sluzby img,
 #services .obrazky img {
-    width:75%;
+    width:90%;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
+    border-radius: 10px;
+    border: 2px solid var(--bg-secondary);
 }
 
 
