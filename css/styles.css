@@ -67,6 +67,7 @@ h2 {
     font-size: 1.2rem;
     line-height: 150%;
     text-align: center;
+    margin: 1.5rem;
 }
 
 /* Navigacia */
@@ -137,7 +138,7 @@ footer,
 }
 
 #services .sluzby,
-#services .obrazk {
+#services .obrazky {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -164,10 +165,6 @@ footer,
     border-radius: 8px;
 }
 
-#services .obrazky img {
-    width: 65%;
-    margin-bottom: 1rem;
-}
 
 
 

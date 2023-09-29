@@ -47,7 +47,7 @@
         max-width: 50%;
     }
 
-    #services .sluzba img {
+    #services .sluzba figure {
         max-width: 80%;
     }
 
@@ -57,7 +57,7 @@
         flex-flow: wrap;
     }
 
-    #services .obrazky img {
+    #services .obrazky figure {
         display: block;
         flex: 0 0 45%;
         max-width: 45%;
@@ -79,8 +79,8 @@
      
     }
     
-    #services .obrazky img,
-    #services .sluzby .sluzba {
+    #services .obrazky figure,
+    #services .sluzby figure {
         flex: 0 0 31%;
         max-width: 31%;
      
