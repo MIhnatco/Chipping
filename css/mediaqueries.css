@@ -1,6 +1,6 @@
 @media (min-width: 568px){
     #kruh {
-        display: none;
+        display: none; 
     }
 
     #desktop-nav {
@@ -18,6 +18,14 @@
     .nav-item a:hover {
         font-weight:700;
         border-bottom: 1px solid var(--bg-secondary);
+    }
+
+    #desktop-nav-sluzby {
+        display: flex;
+    }
+
+    #domov {
+        display: none;
     }
 }
 
