@@ -2,10 +2,10 @@
 
 :root {
     --bg-primary: #23c686;
-    --text-primary: #4b210f;
+    --text-primary: #1F0E04;
     --bg-secondary: #234c23;
 
-    --text-links: #fff;
+    --text-links: #f7b318;
 }
 
 
@@ -30,7 +30,7 @@ body {
     background-color: var(--bg-secondary);
     overflow-y: auto;
     transition: right 0.3s ease;
-    padding: 1rem;
+    padding: 1rem 3rem;
 }
 
 .nav-links {
@@ -38,7 +38,6 @@ body {
 }
 
 .nav-item {
-
     margin: 0.7rem 0;
 
 }
@@ -47,15 +46,27 @@ body {
 .fa-home {
     color: var(--text-links);
     font-size: 1.5rem;
+    cursor: pointer;
 }
 
 .fa-home {
     color: var(--text-primary);
 }
 
-a {
+.nav-link-big {
+       text-decoration: none;
+}
+
+
+.nav-link-sm {
     color: var(--text-links);
     text-decoration: none;
+}
+
+.nav-link-sm:hover {
+    font-weight: 600;
+    border-bottom: 1px solid var(--text-links);
+
 }
 
 h1 {
@@ -76,13 +87,10 @@ header nav {
     height: 2rem;
     justify-content: space-between;
     align-items: center;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 #kruh {
-    position: absolute;
-    top: 20px;
-    right: 30px;
     width: 30px;
     height: 30px;
     background-color: var(--bg-secondary);
@@ -90,7 +98,8 @@ header nav {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    cursor: pointer;
+   }
 
 #desktop-nav {
     display: none;
@@ -152,7 +161,7 @@ footer,
 
 #services .sluzby img,
 #services .obrazky img {
-    width:90%;
+    width:75%;
     display: block;
     margin: 0 auto;
     border-radius: 8px;
