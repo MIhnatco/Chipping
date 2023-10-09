@@ -100,7 +100,8 @@
                 
             </section> <!-- /Galeria--> 
         </main>
-        <footer>
+        
+        <footer id='sluzby-footer'>
             
             <div class="kontakt">
 
@@ -133,5 +134,17 @@
 
         
     </div>
+
+
+    <script>
+         // Check if the page is opened in a new window
+    if (window.opener) {
+        // Get the footer content
+        var sluzbyFooter = document.getElementById('sluzby-footer').innerHTML;
+
+        // Display the footer content in the new window
+        window.opener.document.getElementById('sluzby-footer').innerHTML = sluzbyFooter;
+    }
+    </script>
 </body>
 </html>

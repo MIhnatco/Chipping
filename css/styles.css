@@ -48,14 +48,23 @@ body {
 
 }
 
+
 .fa-close, 
 .fa-home {
     font-size: 1.5rem;
     cursor: pointer;
 }
 
-.fa-close {
+.fa-close,
+.fa-tree, 
+.fa-image,
+.bocna-navigacia .fa-envelope {
     color: var(--bg-primary);
+}
+
+
+.bocna-navigacia i {
+    margin-right: .5rem;
 }
 .fa-home {
     color: var(--text-primary);
