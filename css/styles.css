@@ -10,7 +10,7 @@
 */
 
 :root {
-    --bg-primary: #04262d;
+    --bg-primary: #053b45;
     --text-primary: #b9ded6;
 }
 
@@ -178,32 +178,40 @@ header nav {
 
 
 /* footer */
-footer, 
-.kontakt {
+footer {
     display: flex;
     flex-direction: column;
-    align-items: center;
-}
-
-.kontakt p {
-    margin: 0.5rem;
-    font-weight: bold;
+    padding-bottom: 2rem;
+    text-align: center;
 }
 
 
-.scn {
-    width: 60%;
+footer h3 {
+    margin: 1em 0;
+}
 
-    padding: .5rem;
+footer h4 span {
+    margin-left: 1rem;
+    letter-spacing: .5px;
+}
+
+
+footer i {
+    color: var(--text-primary);
+}
+
+
+
+#scn {
     display: flex;
     justify-content: space-around;
-    align-items: center;
 }
-.scn a {
-    color: var(--text-primary);
+
+#scn i {
     font-size: 1.5rem;
-   
 }
+
+
 
 
 
