@@ -35,7 +35,7 @@ body {
     height: 100%;
     background-color: var(--text-primary);
     overflow-y: auto;
-    transition: right 0.3s ease;
+    transition: right 0.5s ease;
     padding: 1rem 3rem;
 }
 
@@ -110,12 +110,16 @@ header nav {
 #kruh {
     width: 30px;
     height: 30px;
-    background-color: var(--bg-secondary);
+    background-color: var(--text-primary);
     border-radius: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     cursor: pointer;
+   }
+
+   .fa-bars {
+    color: var(--bg-primary);
    }
 
 #desktop-nav {
@@ -134,6 +138,8 @@ header nav {
     text-align: center;
     padding: 0.8rem;
 }
+
+
 
 
 /* Sluzby a Galeria*/
@@ -196,7 +202,11 @@ footer {
 
 
 footer h3 {
-    margin: 1em 0;
+    margin: 1rem 0;
+}
+
+.hidden-text {
+    display: none;
 }
 
 footer h4 span {
