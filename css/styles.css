@@ -134,6 +134,15 @@ header nav {
     padding: 0.8rem;
 }
 
+#main-image {
+    width: 130px;
+    height: 130px;
+
+    background-image: url("../images/logo5cm.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
 
 
 

@@ -20,6 +20,14 @@
         border-bottom: 1px solid var(--bg-secondary);
     }
 
+
+    #main-image {
+        width: 220px;
+        height: 220px;
+    
+        background-image: url("../images/logo8cm.png");
+    }
+
     #desktop-nav-sluzby {
         display: flex;
     }
