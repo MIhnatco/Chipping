@@ -74,6 +74,15 @@
         justify-content: space-around;
     }
 
+    footer > .kontakt:nth-child(2){
+        width: 35%;
+        text-align: center;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
 
 
 }

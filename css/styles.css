@@ -1,17 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
-/*
-:root {
-    --bg-primary: #23c686;
-    --text-primary: #1F0E04;
-    --bg-secondary: #234c23;
-
-    --text-links: #f7b318;
-}
-*/
 
 :root {
     --bg-primary: #b9ded6;
     --text-primary: #053b45;
+
+    --youtube: #f00;
+    --instagram: #833AB4;
+    --tiktok: #000;
 }
 
 
@@ -215,10 +210,17 @@ footer h4 span {
 }
 
 
-footer i {
-    color: var(--text-primary);
+.fa-youtube {
+    color: var(--youtube);
 }
 
+.fa-square-instagram {
+    color: var(--instagram);
+}
+
+.fa-tiktok {
+    color: var(--tiktok);
+}
 
 
 #scn {
