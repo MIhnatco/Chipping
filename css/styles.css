@@ -82,15 +82,22 @@ body {
 }
 
 h1 {
-    font-size: 1.8rem;
+    font-size: 1.6rem;
 }
 
 
 h2 {
-    font-size: 1.2rem;
+    font-size: 1rem;
     line-height: 150%;
     text-align: center;
     margin: 1.5rem;
+    width: 70%;
+    margin: 0 auto;
+}
+
+h1,
+h2 {
+    transition: font-size 0.5s;
 }
 
 /* Navigacia */
@@ -141,6 +148,7 @@ header nav {
     background-image: url("../images/logo5cm.png");
     background-repeat: no-repeat;
     background-size: contain;
+    transition: width 0.5s, height 0.5s, background-image 0.5s;
 }
 
 
