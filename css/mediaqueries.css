@@ -58,6 +58,8 @@
         margin: 2rem;
     }
 
+
+    /* Nase sluzby */
  
     #services .sluzba {
         max-width: 50%;
@@ -67,14 +69,20 @@
         max-width: 80%;
     }
 
-    #services .obrazky,
     #services .sluzby {
         flex-direction: row;
         flex-flow: wrap;
     }
 
-    #services .obrazky figure {
-        display: block;
+    /* Galeria */
+
+    #services #videos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    #services #videos .video {
         flex: 0 0 45%;
         max-width: 45%;
     }
@@ -106,14 +114,6 @@
         margin: auto;
     }
 
-    #services .sluzby,
-    #services .obrazky {
-        flex-direction: row;
-      
-     
-    }
-    
-    #services .obrazky figure,
     #services .sluzby figure {
         flex: 0 0 31%;
         max-width: 31%;

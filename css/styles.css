@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;600&display=swap');
 
 :root {
-    --bg-primary: #b9ded6;
+    --bg-primary: #95e694;
     --text-primary: #053b45;
 
     --youtube: #f00;
@@ -90,9 +90,11 @@ h2 {
     font-size: 1rem;
     line-height: 150%;
     text-align: center;
-    margin: 1.5rem;
-    width: 70%;
     margin: 0 auto;
+}
+
+#main h2 {
+    width: 70%;
 }
 
 h1,
@@ -154,9 +156,7 @@ header nav {
 
 
 
-/* Sluzby a Galeria*/
-
-/*Desktop navigation */
+/* Sluzby */
 
 #desktop-nav-sluzby {
     display: none;
@@ -165,6 +165,7 @@ header nav {
 
 #services #naseSluzby h2 {
     margin: 2rem 0;
+  
 }
 
 #services #naseSluzby p {
@@ -172,8 +173,7 @@ header nav {
 
 }
 
-#services .sluzby,
-#services .obrazky {
+#services .sluzby {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
@@ -189,8 +189,7 @@ header nav {
     margin: 0  auto 1.5rem auto;
 }
 
-#services .sluzby img,
-#services .obrazky img {
+#services .sluzby img {
     width:75%;
     display: block;
     margin: 0 auto;
@@ -210,6 +209,23 @@ header nav {
   
 }
 
+
+/* Galeria */
+
+#services #videos {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+#videos .video {
+    max-width: 90%;
+    margin: 0.8rem 0;
+    border-radius: 6px;
+}
 
 
 
